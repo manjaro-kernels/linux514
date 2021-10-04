@@ -11,3 +11,6 @@ jobs:
         with:
           gitlab-pw: ${{ secrets.gitlab_server_user }}
           bump-kernel: false
+          boxit-host: ${{ secrets.BOXIT_HOST }}
+          boxit-target: ${{ secrets.BOXIT_TARGET }}
+          ssh-key: ${{ secrets.SSH_PACKAGE_CI }}
